@@ -1,0 +1,20 @@
+package br.com.fiap.exercicio01.view;
+
+import br.com.fiap.exercicio01.model.Cor;
+import br.com.fiap.exercicio01.model.Lancha;
+
+public class Exercicio {
+
+	public static void main(String[] args) {
+		
+		
+		//Instanciar uma cor
+		
+		Cor azul = new Cor("Azul", 0, 0, 255);
+		
+		//Instanciar um Lancha
+		Lancha barco = new Lancha();
+
+	}
+
+}
