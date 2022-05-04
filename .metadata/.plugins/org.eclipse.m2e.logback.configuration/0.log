@@ -87,3 +87,7 @@ Caused by: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-sec
 	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.toStream(SecUtil.java:100)
 	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.read(SecUtil.java:56)
 	... 9 common frames omitted
+2022-04-29 21:23:04,827 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-05-02 14:56:42,159 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-05-02 18:48:21,489 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-05-04 18:08:19,821 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
