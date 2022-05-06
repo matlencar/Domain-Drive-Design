@@ -7,6 +7,11 @@ public class Endereco {
 	private String bairro;
 	private String cidade;
 	private String estado;
+	
+	//Construtores
+	public Endereco() {
+		super();
+	}
 
 	// Getters and Setters
 	public String getRua() {

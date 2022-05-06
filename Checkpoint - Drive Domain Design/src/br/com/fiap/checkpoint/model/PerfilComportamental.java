@@ -8,10 +8,8 @@ public class PerfilComportamental {
 	
 	
 	//Construtores
-	public PerfilComportamental(String mentalidade, String caracteristicas) {
-		this.mentalidade = mentalidade;
-		this.caracteristicas = caracteristicas;
-	}
+	//public PerfilComportamental() {
+	//}
 	
 	//Getters and Setters
 	public String getMentalidade() {

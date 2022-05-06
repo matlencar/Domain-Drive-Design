@@ -10,12 +10,15 @@ public class Vaga {
 	private String pessoal;
 	
 	//Construtores
-	public Vaga(String cargo, String responsabilidades, String comportamental, String profissional, String pessoal) {
+	public Vaga(String cargo, String responsabilidades, String comportamental, String profissional) {
 		this.cargo = cargo;
 		this.responsabilidades = responsabilidades;
 		this.comportamental = comportamental;
 		this.profissional = profissional;
-		this.pessoal = pessoal;
+	}
+	//Construtor Responsabilidade
+	public Vaga(String responsabilidades) {
+		this.responsabilidades = responsabilidades;
 	}
 
 	// Getters and Setters
@@ -23,6 +26,7 @@ public class Vaga {
 		return cargo;
 	}
 
+	
 	public void setCargo(String cargo) {
 		this.cargo = cargo;
 	}

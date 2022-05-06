@@ -5,6 +5,11 @@ public class Telefone {
 	// Atributos
 	private int residencial;
 	private int celular;
+	
+	//Construtores
+	public Telefone() {
+		super();
+	}
 
 	// Getters and Setters
 	public int getResidencial() {

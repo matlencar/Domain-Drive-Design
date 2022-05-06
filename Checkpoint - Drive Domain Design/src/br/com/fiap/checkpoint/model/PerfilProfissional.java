@@ -7,10 +7,7 @@ public class PerfilProfissional {
 	private String experiencia;
 
 	// Construtores
-	public PerfilProfissional(String habilidades, String experiencia) {
-		this.habilidades = habilidades;
-		this.experiencia = experiencia;
-
+	public PerfilProfissional() {
 	}
 
 	// Getters and Setters

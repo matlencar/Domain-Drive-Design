@@ -14,8 +14,23 @@ public class Estagiario {
 	private PerfilComportamental comportamental;
 	private PerfilProfissional profissional;
 	private PerfilPessoal pessoal;
+	private Cargo cargo;
+	
+	//Construtores
+	public Estagiario() {
+		super();
+	}
 
 	// Getters and Setters
+	public Cargo getCargo() {
+		return cargo;
+	}
+
+	public void setCargo(Cargo cargo) {
+		this.cargo = cargo;
+	}
+
+	
 	public String getNome() {
 		return nome;
 	}

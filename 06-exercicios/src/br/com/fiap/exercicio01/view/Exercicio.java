@@ -34,7 +34,7 @@ public class Exercicio {
 		
 		//Ler o comprimento do barco
 		System.out.println("Digite o comprimento: ");
-		int comprimento = sc.nextInt();
+		double comprimento = sc.nextDouble();
 		barco.setComprimento(comprimento);
 		
 		//Ler o ano de fabricação
