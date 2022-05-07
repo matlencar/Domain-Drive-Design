@@ -3,28 +3,28 @@ package br.com.fiap.checkpoint.model;
 public class PerfilProfissional {
 
 	// Atributos
-	private String habilidades;
-	private String experiencia;
+	private String frontend;
+	private String backend;
 
 	// Construtores
 	public PerfilProfissional() {
 	}
 
 	// Getters and Setters
-	public String getHabilidades() {
-		return habilidades;
+	public String getBackend() {
+		return backend;
 	}
 
-	public void setHabilidades(String habilidades) {
-		this.habilidades = habilidades;
+	public void setBackend(String backend) {
+		this.backend = backend;
 	}
 
-	public String getExperiencia() {
-		return experiencia;
+	public String getFrontend() {
+		return frontend;
 	}
 
-	public void setExperiencia(String experiencia) {
-		this.experiencia = experiencia;
+	public void setFrontend(String frontend) {
+		this.frontend = frontend;
 	}
 
 }

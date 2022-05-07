@@ -9,9 +9,7 @@ public class Endereco {
 	private String estado;
 	
 	//Construtores
-	public Endereco() {
-		super();
-	}
+	
 
 	// Getters and Setters
 	public String getRua() {

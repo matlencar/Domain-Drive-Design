@@ -10,11 +10,11 @@ public class Estagiario {
 	private int idade;
 	private String escolaridade;
 	private Telefone telefone;
-	private Endereco endereco;
-	private PerfilComportamental comportamental;
-	private PerfilProfissional profissional;
-	private PerfilPessoal pessoal;
-	private Cargo cargo;
+	//private Endereco endereco;
+	//private PerfilComportamental comportamental;
+	//private PerfilProfissional profissional;
+	//private PerfilPessoal pessoal;
+	//private Cargo cargo;
 	
 	//Construtores
 	public Estagiario() {
@@ -22,6 +22,7 @@ public class Estagiario {
 	}
 
 	// Getters and Setters
+	/*
 	public Cargo getCargo() {
 		return cargo;
 	}
@@ -30,7 +31,7 @@ public class Estagiario {
 		this.cargo = cargo;
 	}
 
-	
+	*/
 	public String getNome() {
 		return nome;
 	}
@@ -86,7 +87,8 @@ public class Estagiario {
 	public void setTelefone(Telefone telefone) {
 		this.telefone = telefone;
 	}
-
+	
+	/*
 	public Endereco getEndereco() {
 		return endereco;
 	}
@@ -110,13 +112,5 @@ public class Estagiario {
 	public void setProfissional(PerfilProfissional profissional) {
 		this.profissional = profissional;
 	}
-
-	public PerfilPessoal getPessoal() {
-		return pessoal;
-	}
-
-	public void setPessoal(PerfilPessoal pessoal) {
-		this.pessoal = pessoal;
-	}
-
+*/
 }

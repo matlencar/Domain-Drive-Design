@@ -1,18 +1,15 @@
 package br.com.fiap.checkpoint.view;
 
 import java.util.Scanner;
-
-import br.com.fiap.checkpoint.model.Cargo;
 import br.com.fiap.checkpoint.model.Endereco;
 import br.com.fiap.checkpoint.model.Estagiario;
 import br.com.fiap.checkpoint.model.PerfilComportamental;
 import br.com.fiap.checkpoint.model.PerfilProfissional;
 import br.com.fiap.checkpoint.model.Telefone;
 
+public class Teste {
 
-public class FormularioEstagiario {
-
-public static void main(String[] args) {
+	public static void main(String[] args) {
 		
 		//Instanciando Leitor
 		Scanner leitor = new Scanner(System.in);
@@ -120,7 +117,6 @@ public static void main(String[] args) {
 		System.out.println("Linguagem de programação backend que o candidato tem conhecimento: " + profissional.getBackend());
 		System.out.println("Linguagem de programação frontend que o candidato tem conhecimento: " + profissional.getFrontend());
 		
-		leitor.close();
 	}
 
 }

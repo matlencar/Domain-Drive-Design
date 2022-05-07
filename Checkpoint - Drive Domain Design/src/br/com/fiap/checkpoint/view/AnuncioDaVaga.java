@@ -13,7 +13,7 @@ public class AnuncioDaVaga {
 		//Instanciando cargo e inserindo os requisitos da vaga
 		Cargo vaga = new Cargo("Estagio em Desenvolvimento de software",
 				"Apoiar no desenvolvimento de novas funcionalidades back-end e front-end",
-				"Java e React","Persistencia");
+				"Java e React","Persistencia, Comunicação, Vontade de aprender");
 		
 		System.out.println("Empresa Knowlegde Software");
 		System.out.println();
