@@ -2,9 +2,9 @@ package br.com.fiap.checkpoint.view;
 
 import java.util.Scanner;
 
-import br.com.fiap.checkpoint.model.Cargo;
 import br.com.fiap.checkpoint.model.Endereco;
 import br.com.fiap.checkpoint.model.Estagiario;
+import br.com.fiap.checkpoint.model.Faculdade;
 import br.com.fiap.checkpoint.model.PerfilComportamental;
 import br.com.fiap.checkpoint.model.PerfilProfissional;
 import br.com.fiap.checkpoint.model.Telefone;
@@ -32,9 +32,21 @@ public static void main(String[] args) {
 		//Instanciando informações profissionais do estagiario
 		PerfilProfissional profissional = new PerfilProfissional();
 		
+		//Instanciando faculdade
+		Faculdade faculdade = new Faculdade();
+		
+		//Lendo informações do estagiario 
 		System.out.println("Digite seu nome: ");
 		String nome = leitor.nextLine();
 		estagiario.setNome(nome);
+		
+		System.out.println("A instituição de ensino em que estuda: ");
+		String instituicao = leitor.nextLine();
+		faculdade.setInstituicao(instituicao);
+		
+		System.out.println("Curso que faz: ");
+		String curso = leitor.nextLine();
+		faculdade.setCurso(curso);
 		
 		//Lendo informações de endereço
 		System.out.println("Digite o nome da rua: ");
@@ -53,7 +65,6 @@ public static void main(String[] args) {
 		String estado = leitor.nextLine();
 		endereco.setEstado(estado);
 		
-		//Lendo informações do estagiario 
 		System.out.println("Insira sua idade: ");
 		int idade = leitor.nextInt();
 		estagiario.setIdade(idade);
@@ -73,6 +84,7 @@ public static void main(String[] args) {
 		System.out.println("Digite sua escolaridade: ");
 		String escolaridade = leitor.next();
 		estagiario.setEscolaridade(escolaridade);
+		
 		
 		System.out.println("Informe o numero do seu telefone celular: ");
 		int celular = leitor.nextInt();
@@ -98,9 +110,8 @@ public static void main(String[] args) {
 		String frontend = leitor.next();
 		profissional.setFrontend(frontend);
 		
-		
 		System.out.println();
-		System.out.println("\t\t\tFormulario para a vaga de estagio na Empresa Knowlegde Software");
+		System.out.println("\t\t\tFormulario para a vaga de estagio na Empresa Knowleagde Software");
 		System.out.println();
 		
 		System.out.println("Nome do candidato: "+ estagiario.getNome());
@@ -108,6 +119,8 @@ public static void main(String[] args) {
 		System.out.println("Genero que me identifico: "+ estagiario.getGenero());
 		System.out.println("Numero do CPF: "+ estagiario.getCpf());
 		System.out.println("Numero do RG: "+ estagiario.getRg());
+		System.out.println("Instituição: "+ faculdade.getInstituicao());
+		System.out.println("Curso: "+ faculdade.getCurso());
 		System.out.println("Grau de escolaridade: "+ estagiario.getEscolaridade());
 		System.out.println("Telefone celular do candidato para contato: "+ telefone.getCelular());
 		System.out.println("Telefone residencial do candidato para contato: "+ telefone.getResidencial());
