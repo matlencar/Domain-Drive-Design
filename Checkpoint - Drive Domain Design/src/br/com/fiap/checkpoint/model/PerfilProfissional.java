@@ -6,10 +6,6 @@ public class PerfilProfissional {
 	private String frontend;
 	private String backend;
 
-	// Construtores
-	public PerfilProfissional() {
-	}
-
 	// Getters and Setters
 	public String getBackend() {
 		return backend;

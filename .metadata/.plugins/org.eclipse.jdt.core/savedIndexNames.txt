@@ -2,7 +2,6 @@ INDEX VERSION 1.131+C:\workspace-fiap\Domain-Drive-Design\.metadata\.plugins\org
 1865797976.index
 874196043.index
 2916600108.index
-1065603428.index
 2551834521.index
 3745987301.index
 3883950653.index

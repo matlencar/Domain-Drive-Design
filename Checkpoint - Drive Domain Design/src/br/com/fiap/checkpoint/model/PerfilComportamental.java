@@ -6,11 +6,6 @@ public class PerfilComportamental {
 	private String mentalidade;
 	private String caracteristicas;
 	
-	
-	//Construtores
-	//public PerfilComportamental() {
-	//}
-	
 	//Getters and Setters
 	public String getMentalidade() {
 		return mentalidade;

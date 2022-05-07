@@ -8,9 +8,6 @@ public class Endereco {
 	private String cidade;
 	private String estado;
 	
-	//Construtores
-	
-
 	// Getters and Setters
 	public String getRua() {
 		return rua;

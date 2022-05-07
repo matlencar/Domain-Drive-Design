@@ -13,7 +13,7 @@ public class Estagiario {
 	
 	
 	// Getters and Setters
-	
+
 	public String getNome() {
 		return nome;
 	}
