@@ -49,7 +49,7 @@ public static void main(String[] args) {
 		faculdade.setCurso(curso);
 		
 		//Lendo informações de endereço
-		System.out.println("Digite o nome da rua: ");
+		System.out.println("Digite o nome da rua que você mora: ");
 		String rua = leitor.nextLine();
 		endereco.setRua(rua);
 		
