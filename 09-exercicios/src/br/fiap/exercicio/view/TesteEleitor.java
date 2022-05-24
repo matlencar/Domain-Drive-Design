@@ -6,22 +6,30 @@ public class TesteEleitor {
 
 	public static void main(String[] args) {
 		
-		//Ler a idade da pessoa
-		int idade = Integer.parseInt(JOptionPane.showInputDialog("Digite a idade "));
-		
-		//Determinar a classe eleitoral
-		if (idade < 16) {
-			JOptionPane.showConfirmDialog(null, "Não eleitor");
-		} else if (idade >= 18 && idade < 65) {
-			JOptionPane.showConfirmDialog(null, "Eleitor obrigatorio");
+		//Armazenar a quantidade de aleitores obrigatorios
+		int totalObrigatorio =0;
+
+		// Laço de repetição
+		for (int i = 0; i < 3; i++) {
+
+			// Ler a idade da pessoa
+			int idade = Integer.parseInt(JOptionPane.showInputDialog("Digite a idade "));
+
+			// Determinar a classe eleitoral
+			if (idade < 16) {
+				JOptionPane.showConfirmDialog(null, "Não eleitor");
+			} else if (idade >= 18 && idade < 65) {
+				JOptionPane.showConfirmDialog(null, "Eleitor obrigatorio");
+				totalObrigatorio++;
+			}
+
+			else {
+				JOptionPane.showConfirmDialog(null, "Eleitor Facultativo");
+			}
 		}
 
-		else {
-			JOptionPane.showConfirmDialog(null, "Eleitor Facultativo");
-		}
-		
-		//Exibir a quantidade de eleitores obrigatorios
-		
+		// Exibir a quantidade de eleitores obrigatorios
+		JOptionPane.showMessageDialog(null, "Total obrigatorio: " + totalObrigatorio);
 
 	}
 
