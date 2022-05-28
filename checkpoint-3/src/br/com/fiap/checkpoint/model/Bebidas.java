@@ -1,53 +1,38 @@
 package br.com.fiap.checkpoint.model;
 
-public class Bebidas {
+public class Bebidas extends Produtos {
 
 	// Atributos
-	private String refrigerante;
-	private String suco;
-	private String vitamina;
-	private String cafe;
-	private String chocolateQuente;
+	private String tipo;
+	private int ml;
+
+	// Construtor vazio
+	public Bebidas() {
+	}
+
+	// Construtor
+	public Bebidas(double preco, int quantidade, int estoque, String nome, String sabor, String tipo,
+			int ml) {
+		super(preco, quantidade, estoque, nome, sabor);
+		this.tipo = tipo;
+		this.ml = ml;
+	}
 
 	// Getters and Setters
-	public String getRefrigerante() {
-		return refrigerante;
+	public String getTipo() {
+		return tipo;
 	}
 
-	public void setRefrigerante(String refrigerante) {
-		this.refrigerante = refrigerante;
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
 	}
 
-	public String getSuco() {
-		return suco;
+	public int getMl() {
+		return ml;
 	}
 
-	public void setSuco(String suco) {
-		this.suco = suco;
-	}
-
-	public String getVitamina() {
-		return vitamina;
-	}
-
-	public void setVitamina(String vitamina) {
-		this.vitamina = vitamina;
-	}
-
-	public String getCafe() {
-		return cafe;
-	}
-
-	public void setCafe(String cafe) {
-		this.cafe = cafe;
-	}
-
-	public String getChocolateQuente() {
-		return chocolateQuente;
-	}
-
-	public void setChocolateQuente(String chocolateQuente) {
-		this.chocolateQuente = chocolateQuente;
+	public void setMl(int ml) {
+		this.ml = ml;
 	}
 
 }

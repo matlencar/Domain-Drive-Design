@@ -7,6 +7,16 @@ public class Estabelecimento {
 	private String endereco;
 	private String bairro;
 	private String cidade;
+	
+	
+	//Construtores
+	public Estabelecimento(String nome, String endereco, String bairro, String cidade) {
+		super();
+		this.nome = nome;
+		this.endereco = endereco;
+		this.bairro = bairro;
+		this.cidade = cidade;
+	}
 
 	// Getters and Setters
 	public String getNome() {

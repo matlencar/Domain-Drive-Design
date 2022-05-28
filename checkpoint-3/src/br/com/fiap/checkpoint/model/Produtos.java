@@ -5,9 +5,23 @@ public class Produtos {
 	// Atributos
 	private double preco;
 	private int quantidade;
-	private String ingredientes;
-	private int validade;
 	private int estoque;
+	private String nome;
+	private String sabor;
+
+	// Construtores vazio
+	public Produtos() {
+	}
+
+	// Construtores
+	public Produtos(double preco, int quantidade, int estoque, String nome, String sabor) {
+		super();
+		this.preco = preco;
+		this.quantidade = quantidade;
+		this.estoque = estoque;
+		this.nome = nome;
+		this.sabor = sabor;
+	}
 
 	// Getters and Setters
 	public double getPreco() {
@@ -26,28 +40,28 @@ public class Produtos {
 		this.quantidade = quantidade;
 	}
 
-	public String getIngredientes() {
-		return ingredientes;
-	}
-
-	public void setIngredientes(String ingredientes) {
-		this.ingredientes = ingredientes;
-	}
-
-	public int getValidade() {
-		return validade;
-	}
-
-	public void setValidade(int validade) {
-		this.validade = validade;
-	}
-
 	public int getEstoque() {
 		return estoque;
 	}
 
 	public void setEstoque(int estoque) {
 		this.estoque = estoque;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getSabor() {
+		return sabor;
+	}
+
+	public void setSabor(String sabor) {
+		this.sabor = sabor;
 	}
 
 }

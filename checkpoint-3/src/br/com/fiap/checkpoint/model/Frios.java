@@ -1,43 +1,34 @@
 package br.com.fiap.checkpoint.model;
 
-public class Frios {
+public class Frios extends Produtos{
 
-	private String mortadela;
-	private String mussarela;
-	private String salame;
-	private String rosbife;
-
-	// Getters and Setters
-	public String getMortadela() {
-		return mortadela;
+	//Atributos
+	private String embutidos;
+	private String queijos;
+	
+	//Construtor vazio
+	public Frios() {}
+	
+	//Construtor
+	public Frios(double preco, int quantidade, int estoque, String nome, String sabor, String embutidos,
+			String queijos) {
+		super(preco, quantidade, estoque, nome, sabor);
+		this.embutidos = embutidos;
+		this.queijos = queijos;
 	}
 
-	public void setMortadela(String mortadela) {
-		this.mortadela = mortadela;
+	//Getters and Setters
+	public String getEmbutidos() {
+		return embutidos;
 	}
-
-	public String getMussarela() {
-		return mussarela;
+	public void setEmbutidos(String embutidos) {
+		this.embutidos = embutidos;
 	}
-
-	public void setMussarela(String mussarela) {
-		this.mussarela = mussarela;
+	public String getQueijos() {
+		return queijos;
 	}
-
-	public String getSalame() {
-		return salame;
+	public void setQueijos(String queijos) {
+		this.queijos = queijos;
 	}
-
-	public void setSalame(String salame) {
-		this.salame = salame;
-	}
-
-	public String getRosbife() {
-		return rosbife;
-	}
-
-	public void setRosbife(String rosbife) {
-		this.rosbife = rosbife;
-	}
-
+	
 }
